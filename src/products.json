@@ -1,17 +1,32 @@
 [
     {
         "id" : 1,
-        "name": "Apple",
+        "name": "Rice",
         "vote": 0
     },
     {
         "id" : 2,
-        "name": "Banana",
+        "name": "Sugar",
         "vote": 0
     },
     {
         "id" : 3,
-        "name": "Orange",
+        "name": "Wheat",
+        "vote": 0
+    },
+    {
+        "id" : 4,
+        "name": "Potato",
+        "vote": 0
+    },
+    {
+        "id" : 5,
+        "name": "Tomato",
+        "vote": 0
+    },
+    {
+        "id" : 6,
+        "name": "Onion",
         "vote": 0
     }
 ]

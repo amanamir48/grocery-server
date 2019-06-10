@@ -3,7 +3,7 @@ const cors =  require('cors');
 
 let appData = require('./products.json');  // App Data
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8000;
 
 const app = express();
 
@@ -36,5 +36,5 @@ app.post('/downvote/:id' , (req,res) => {
     res.send(appData);
 });
 
-app.listen(PORT, () => { console.log(`Server started on Server at port ${PORT}`)});
+app.listen(PORT, () => { console.log(`Server started at port ${PORT}`)});
 
